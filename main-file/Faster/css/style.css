@@ -502,14 +502,13 @@
           transform:scale(0.9);
 }
 /*-------------------- Boost Your Phone -----------------*/
-.boost-your-phone {margin: 90px 0 125px 0;}
+.boost-your-phone {margin: 0 0 125px 0;}
 .boost-your-phone .container {position: relative;}
 .boost-your-phone .boster-image-wrapper {
   position: absolute;
   width: 62%;
   top:0;
   left:-170px;
-  background: url(../images/home/bg-1.png) no-repeat center center;
   z-index: 1;
 }
 .boost-your-phone .boster-image-wrapper input.ao-toggle {
