@@ -137,7 +137,7 @@
 .html-top-content {
   position: relative;
   z-index: 999;
-  margin-bottom: 594px;
+  /*margin-bottom: 594px;*/
   background: #fff;
 }
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
@@ -284,7 +284,7 @@
   left:0;
   right: 0;
   top:0;
-  padding-top: 65px;
+
   z-index: 999;
 }
 .theme-main-header .button-group li {
@@ -592,8 +592,8 @@
   position: absolute;
   bottom:20px;
   left:50%;
-  -webkit-transform:translateX(-50%;);
-          transform:translateX(-50%;);
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
 }
 .boost-your-phone .theme-title-two {margin-bottom: 55px;}
 .boost-your-phone .text {padding: 150px 0 0 0;}
@@ -619,7 +619,7 @@
   z-index: 9;
 }
 .advance-feature .feature-warpper:before {
-  content: url(../images/home/bg-2.png);
+
   position: absolute;
   top:0;
   right: -80px;
@@ -662,11 +662,11 @@
 .advance-feature .feature-warpper .single-feature.bg-three {background-image: linear-gradient( 51deg, rgb(127,95,206) 0%, rgb(179,123,236) 99%);}
 .advance-feature .feature-warpper .single-feature.bg-four {background-image: linear-gradient( 51deg, rgb(49,176,100) 0%, rgb(40,243,135) 100%);}
 .two-section-wrapper {
-  background: url(../images/home/bg-3.png) no-repeat  center center;
+  background:  no-repeat  center center;
 }
 /*--------------------- Testimonial Slider --------------*/
 .testimonial-section .main-bg-wrapper {
-  margin: 150px 0 0 368px;
+  margin: 150px 150px 0 368px;
   position: relative;
   background: url(../images/home/1.jpg) no-repeat center;
   background-size: cover;
@@ -873,7 +873,7 @@
 }
 /*------------------------ App ScreenShot -----------------------*/
 .app-screenshot {
-  padding: 130px 0 230px 0;
+  padding: 130px 0 130px 0;
   position: relative;
   max-width: 1920px;
   margin: 0 auto;
@@ -1018,7 +1018,7 @@
 .form-validation textarea.error,
 .form-validation input.error {border-bottom:2px solid #f65353 !important;}
 /*---------------------- Google-map ------------------*/
-.google-map-area {margin: 170px 0 170px 0;}
+.google-map-area {margin: 0px 0 10px 0;}
 .google-map-area .map-image-warpper {position: relative;}
 .google-map-area .map-image-warpper>img {margin: 0 auto;}
 .google-map-area .map-image-warpper .placeholder {
@@ -1059,56 +1059,33 @@
 }
 .google-map-area .map-image-warpper .placeholder .map-meta-data p {font-size: 17px;line-height: 26px;}
 /*---------------------- Footer -------------------*/
-footer {
+.footer {
   background: -webkit-gradient( linear, right top, left top, from(rgb(248,252,255)), to(rgba(255,255,255,0)));
   background: linear-gradient( -90deg, rgb(248,252,255) 0%, rgba(255,255,255,0) 100%);
-  padding: 120px 0 50px 0;
+  /*padding: 120px 0 50px 0;*/
   position: fixed;
   left:0;
   right: 0;
   bottom: 0;
   z-index: 1;
+  background-color: #0aebb3;
 }
-footer .footer-data-wrapper {padding: 0 40px;}
-footer .subscribe-form h2 {
+footer .footer-data-wrapper {
+
   text-align: center;
+  background-color: rgba(111, 108, 115, 0.57);
+  margin-top: 50px;
+
+
+
 }
-footer .subscribe-form .input-wrapper {
-  margin: 70px 0 85px 0;
-}
-footer .subscribe-form .input-wrapper input[type="text"],
-footer .subscribe-form .input-wrapper input[type="email"] {
-  width: 100%;
-  border: 1px solid #eaf0f3;
-  border-radius: 30px;
-  background: #fff;
-  height: 60px;
-  margin-bottom: 15px;
-  padding: 0 30px;
-}
-footer .subscribe-form .input-wrapper .theme-button {
-  height: 60px;
-  border-radius: 30px;
-}
-footer .subscribe-form .input-wrapper .theme-button input[type="submit"] {
-  width: 100%;
-  height: 100%;
-  border-radius: 30px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border: none;
-  position: relative;
-  z-index: 1;
-  background: transparent;
-}
+
 footer .bottom-footer .footer-logo p {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  color: #909090;
-  margin-top: 20px;
+  color: #f4efef;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 footer .bottom-footer ul li {display: inline-block;}
 footer .bottom-footer ul.footer-menu li a {
@@ -1122,7 +1099,7 @@ footer .bottom-footer ul.social-icon li a {
   font-size: 20px;
 }
 footer .bottom-footer ul.social-icon li a:hover {color: #212121;}
-footer .bottom-footer [class*="col-"] {margin-bottom: 50px;}
+footer .bottom-footer [class*="col-"] {margin-bottom: 0px;}
 
 
 /* ---- stats.js ---- */
